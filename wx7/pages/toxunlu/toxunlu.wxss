@@ -1,0 +1,37 @@
+/* pages/toxunlu/toxunlu.wxss */
+.box{
+  width: 100%;
+  height: 100vh;
+  background-color: darkgray;
+}
+.cell{
+  width: 100%;
+  height: 200rpx;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.cell1{
+  width: 100rpx;
+  height: 100rpx;
+  border: 1rpx solid red;
+
+}
+.tu{
+  height: 100%;
+  width: 100%;
+}
+.c1{
+  width: 150rpx;
+  height: 100rpx;
+  border: 1px solid floralwhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c2{
+  width: 150rpx;
+  height:100rpx;
+
+}

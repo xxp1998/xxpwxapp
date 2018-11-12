@@ -1,0 +1,14 @@
+<!--pages/two/two.wxml-->
+<view class='content'>
+   <block wx:for="{{nrdatas}}">
+      <view class='nr' bindtap='nrclcik' data-text='{{item.title}}'>
+          <view class='nr1'>
+             <image src='{{item.img}}'class='tu'>
+             </image>
+          </view>
+          <view class='nr2'>
+            <text>{{item.title}}</text>
+          </view>
+      </view>
+   </block>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/toxunlu/toxunlu.wxml-->
+<view class='box'>
+<block wx:for="{{eert}}">
+     <view class='cell'> 
+         <view class='cell1'><image src='{{item.fimg}}' class='tu'></image></view>
+         <text class='c1'>{{item.name}}</text>
+         <button class='c2' bindtap='phoneclick' data-text='{{item.phone}}'>拨号</button>
+         <button class='c2' bindtap='emailclick' data-mail='{{item.email}}'>邮件</button>
+         <button class='c2'>短信</button>
+     </view>
+</block>
+</view>
+

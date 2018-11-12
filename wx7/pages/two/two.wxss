@@ -1,0 +1,29 @@
+/* pages/two/two.wxss */
+.content{
+  width: 100%;
+  height: 70vh;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.nr{
+  width: 200rpx;
+  height: 135rpx;
+  border: 1px solid darkcyan;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nr1{
+  width: 100rpx;
+  height: 60rpx;
+  border: 1px solid gold;
+}
+.tu{
+  height: 100%;
+  width: 100%;
+}

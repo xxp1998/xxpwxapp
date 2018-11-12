@@ -1,0 +1,10 @@
+<!--pages/chaxun/chaxun.wxml-->
+<view class='box'>
+    <view class='top'>
+         <input class='aqwe' bindinput='nameinput' placeholder='请输入用户姓名'></input>
+         <button bindtap='btclcik' class='zxc'>查询</button>
+    </view>
+    <view class="uview">
+   <image  class="cimg" src='{{imgfacepath}}'></image>
+   </view>
+</view>

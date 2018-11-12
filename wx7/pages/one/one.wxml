@@ -1,0 +1,19 @@
+<!--pages/one/one.wxml-->
+<view class='box'>
+     <view class='top'>
+     </view>
+     <view class='content'>
+           <view class='cell'>
+                <input placeholder='请输入用户名' class='name'></input>
+           </view>
+           <view class='cell'>
+                <input placeholder='请输入密码' class='name'></input>
+           </view>
+           <view class='cell' bindtap='dlclick'>
+                 <button class='dl1'>登录</button>
+           </view>
+           <view class='cell'>
+                 <button>注册</button>
+           </view>
+     </view>
+</view>
